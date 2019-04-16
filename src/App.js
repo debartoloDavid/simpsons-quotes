@@ -5,6 +5,9 @@ import Character from './components/Character';
 import './App.css';
 
 
+import Quotes from "./components/Quotes"
+
+
 class App extends Component {
   
 
@@ -14,6 +17,7 @@ class App extends Component {
       <div className="App"> 
         <Header  />
         <Character />
+        <Quotes />
       </div>
     );
   }

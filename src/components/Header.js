@@ -31,6 +31,7 @@ class Header extends React.Component{
                 Learn React
                 </a>
                 
+                <input className="btn" type="button" onClick={this.handelClick} />
             </header>
         )
     }
