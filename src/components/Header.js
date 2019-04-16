@@ -21,6 +21,7 @@ class Header extends React.Component{
                 <p>
                 Generating a React Project for Simpsons Quotes
                 </p>
+                <input className="btn" type="button" onClick={this.handelClick} />
                 <a
                 className="header-link"
                 href="https://reactjs.org"
@@ -29,7 +30,7 @@ class Header extends React.Component{
                 >
                 Learn React
                 </a>
-                <input className="btn" type="button" onClick={this.handelClick} />
+                
             </header>
         )
     }
